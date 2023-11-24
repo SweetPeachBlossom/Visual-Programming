@@ -47,8 +47,8 @@ public:		// User declarations
 	__fastcall TForm1(TComponent* Owner);
 	int kind_of_tetramino;
 	void Game(void);
-	const static int figures[7][4];
 	struct Point;
+	int figures[7][4];
 };
 //---------------------------------------------------------------------------
 extern PACKAGE TForm1 *Form1;

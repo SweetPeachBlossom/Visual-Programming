@@ -34,6 +34,11 @@ __published:	// IDE-managed Components
 	TEdit *Edit3;
 	TEdit *Edit4;
 	TStringGrid *StringGrid3;
+	TLabel *Label7;
+	TLabel *Label8;
+	TLabel *Label9;
+	TLabel *Label10;
+	TLabel *Label11;
 	void __fastcall N7Click(TObject *Sender);
 	void __fastcall N6Click(TObject *Sender);
 	void __fastcall N4Click(TObject *Sender);
@@ -45,9 +50,9 @@ __published:	// IDE-managed Components
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm1(TComponent* Owner);
+	except int figures[7][4];
 	int kind_of_tetramino;
 	void Game(void);
-	const static int figures[7][4];
 	struct Point;
 };
 //---------------------------------------------------------------------------
